@@ -206,4 +206,8 @@ body {
   #im4 {
     margin-top: -190vw;
   }
+  .pg {
+    background-position-x: 103%;
+    background-position-y: 30%;
+  }
 }/*# sourceMappingURL=style.css.map */
