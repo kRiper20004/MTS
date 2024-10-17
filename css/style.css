@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "mts";
   src: url(/fonts/mts-wide-regular.ttf);
@@ -6,6 +7,11 @@
   font-family: "mtsbold";
   src: url(/fonts/MTSWide-Bold.ttf);
 }
+.btm {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .test {
   display: flex;
   flex-direction: column;
@@ -14,6 +20,12 @@
   display: flex;
   justify-content: space-between;
 }
+.test .t2 {
+  margin-top: 2vw;
+  margin-bottom: 6vw;
+  text-align: center;
+  font-size: 2vw;
+}
 
 #im1 {
   height: 380vh;
@@ -21,13 +33,13 @@
 }
 
 #im2 {
-  width: 10vw;
-  height: 10vw;
+  width: 8vw;
+  height: 8vw;
 }
 
 #im3 {
-  width: 10vw;
-  height: 10vw;
+  width: 13vw;
+  height: 13vw;
 }
 
 #im4 {
@@ -48,19 +60,21 @@
 }
 
 #im7 {
-  position: absolute;
-  scale: 50%;
-  margin-top: 440vw;
-  margin-right: -80vw;
+  width: 20vw;
+  height: 15vw;
 }
 
 body {
+  margin: 0;
   font-family: "mts";
 }
 
 .pg {
   display: flex;
   justify-content: center;
+  background: url(/img/4\ —\ копия.png) right center/cover no-repeat;
+  background-size: 30%;
+  background-position-y: 35%;
 }
 .pg .time {
   width: 20vw;
@@ -142,9 +156,6 @@ body {
     margin-right: -70vw;
     margin-top: 40vw;
   }
-  #im7 {
-    scale: 20%;
-  }
   .pg table {
     height: 200px;
   }
@@ -159,10 +170,6 @@ body {
   }
   #im5 {
     height: 3px;
-  }
-  #im7 {
-    margin-right: -75vw;
-    margin-top: 420vw;
   }
 }
 body {
@@ -179,9 +186,6 @@ body {
   #t1 {
     height: 1em;
   }
-  #im7 {
-    margin-top: 360vw;
-  }
   #im4 {
     margin-top: -85vw;
   }
@@ -192,10 +196,6 @@ body {
   }
   #im6 {
     height: 50vh;
-  }
-  #im7 {
-    margin-right: -78vw;
-    margin-top: 350vw;
   }
   #im4 {
     margin-top: -190vw;
