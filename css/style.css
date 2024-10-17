@@ -198,4 +198,29 @@ body {
   #im4 {
     margin-top: -85vw;
   }
+}
+@media (max-width: 375px) {
+  #im2 {
+    scale: 10%;
+    margin-top: -44vw;
+    margin-right: -122vw;
+  }
+  #im3 {
+    scale: 10%;
+    margin-left: -84vw;
+    margin-top: -87vw;
+  }
+  #im1 {
+    height: 70vh;
+  }
+  #im6 {
+    height: 50vh;
+  }
+  #im7 {
+    margin-right: -78vw;
+    margin-top: 350vw;
+  }
+  #im4 {
+    margin-top: -190vw;
+  }
 }/*# sourceMappingURL=style.css.map */
