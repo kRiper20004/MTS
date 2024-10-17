@@ -135,7 +135,7 @@ body {
   #im2 {
     scale: 20%;
     margin-top: -19.5vw;
-    margin-right: -85vw;
+    margin-right: -90vw;
   }
   #im3 {
     scale: 20%;
@@ -143,8 +143,9 @@ body {
     margin-left: -84vw;
   }
   #im4 {
-    scale: 20%;
-    margin-right: -55vw;
+    scale: 15%;
+    margin-right: -70vw;
+    margin-top: 40vw;
   }
   #im7 {
     scale: 20%;
@@ -165,9 +166,36 @@ body {
     height: 3px;
   }
   #im7 {
-    margin-right: -70vw;
+    margin-right: -75vw;
+    margin-top: 420vw;
   }
 }
 body {
   overflow-x: hidden;
+}
+
+@media (max-width: 576px) {
+  #im1 {
+    height: 100vh;
+  }
+  #im6 {
+    height: 80vh;
+  }
+  #im2 {
+    margin-top: -25.5vw;
+    margin-right: -96vw;
+  }
+  #im3 {
+    margin-top: -51vw;
+    margin-left: -79vw;
+  }
+  #t1 {
+    height: 1em;
+  }
+  #im7 {
+    margin-top: 360vw;
+  }
+  #im4 {
+    margin-top: -85vw;
+  }
 }/*# sourceMappingURL=style.css.map */
