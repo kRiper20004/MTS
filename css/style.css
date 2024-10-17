@@ -6,23 +6,28 @@
   font-family: "mtsbold";
   src: url(/fonts/MTSWide-Bold.ttf);
 }
+.test {
+  display: flex;
+  flex-direction: column;
+}
+.test .t1 {
+  display: flex;
+  justify-content: space-between;
+}
+
 #im1 {
   height: 380vh;
   margin-left: 3vw;
 }
 
 #im2 {
-  position: absolute;
-  scale: 50%;
-  margin-top: -5vw;
-  margin-right: -90vw;
+  width: 10vw;
+  height: 10vw;
 }
 
 #im3 {
-  position: absolute;
-  scale: 50%;
-  margin-top: -10vw;
-  margin-left: -83vw;
+  width: 10vw;
+  height: 10vw;
 }
 
 #im4 {
@@ -132,16 +137,6 @@ body {
 }
 
 @media (max-width: 768px) {
-  #im2 {
-    scale: 20%;
-    margin-top: -19.5vw;
-    margin-right: -90vw;
-  }
-  #im3 {
-    scale: 20%;
-    margin-top: -38vw;
-    margin-left: -84vw;
-  }
   #im4 {
     scale: 15%;
     margin-right: -70vw;
@@ -181,14 +176,6 @@ body {
   #im6 {
     height: 80vh;
   }
-  #im2 {
-    margin-top: -25.5vw;
-    margin-right: -96vw;
-  }
-  #im3 {
-    margin-top: -51vw;
-    margin-left: -79vw;
-  }
   #t1 {
     height: 1em;
   }
@@ -200,16 +187,6 @@ body {
   }
 }
 @media (max-width: 375px) {
-  #im2 {
-    scale: 10%;
-    margin-top: -44vw;
-    margin-right: -122vw;
-  }
-  #im3 {
-    scale: 10%;
-    margin-left: -84vw;
-    margin-top: -87vw;
-  }
   #im1 {
     height: 70vh;
   }
