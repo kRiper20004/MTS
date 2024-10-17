@@ -151,6 +151,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  .pg {
+    background-position-y: 40%;
+  }
   #im4 {
     scale: 15%;
     margin-right: -70vw;
@@ -177,14 +180,17 @@ body {
 }
 
 @media (max-width: 576px) {
+  .pg {
+    background-position-y: 35%;
+  }
   #im1 {
-    height: 100vh;
+    height: 120vh;
   }
   #im6 {
-    height: 80vh;
+    height: 90vh;
   }
   #t1 {
-    height: 1em;
+    height: 2em;
   }
   #im4 {
     margin-top: -85vw;
