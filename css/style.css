@@ -180,6 +180,9 @@ body {
 }
 
 @media (max-width: 576px) {
+  #im5 {
+    height: 2px;
+  }
   .pg {
     background-position-y: 35%;
   }
@@ -209,5 +212,8 @@ body {
   .pg {
     background-position-x: 103%;
     background-position-y: 30%;
+  }
+  #im5 {
+    height: 1px;
   }
 }/*# sourceMappingURL=style.css.map */
