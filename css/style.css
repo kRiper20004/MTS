@@ -124,6 +124,12 @@ body {
   text-align: left;
   vertical-align: top;
 }
+.pg1 .time1 {
+  width: 20vw;
+  font-size: 2.5vw;
+  text-align: center;
+  vertical-align: top;
+}
 .pg1 .time2 {
   width: 20vw;
   font-size: 2.5vw;
