@@ -139,6 +139,12 @@ body {
   width: 90vw;
 }
 
+#spn {
+  font-size: 2vw;
+  vertical-align: top;
+  color: red;
+}
+
 .top {
   flex-direction: column;
   display: flex;
